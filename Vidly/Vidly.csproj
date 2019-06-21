@@ -217,6 +217,14 @@
     <Compile Include="Migrations\201906211304352_ApplyAnnotations.Designer.cs">
       <DependentUpon>201906211304352_ApplyAnnotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906211846476_AddNameToMemberShipType.cs" />
+    <Compile Include="Migrations\201906211846476_AddNameToMemberShipType.Designer.cs">
+      <DependentUpon>201906211846476_AddNameToMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906211848410_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201906211848410_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201906211848410_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -324,6 +332,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906211304352_ApplyAnnotations.resx">
       <DependentUpon>201906211304352_ApplyAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906211846476_AddNameToMemberShipType.resx">
+      <DependentUpon>201906211846476_AddNameToMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906211848410_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201906211848410_SetNameOfMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
